@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--Main Screen-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="MainScreen" title="Main Screen" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchCounter_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="2Cx-R6-nyN">
+                            <items>
+                                <tableRow identifier="TableRow" id="WqN-PT-Gje">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="xm6-YR-RB3">
+                                        <items>
+                                            <label height="0.5" alignment="center" verticalAlignment="center" text="10" id="KoZ-Uu-6lM"/>
+                                            <label height="0.5" alignment="center" verticalAlignment="center" text="Cups of Coffee" id="6fh-Y9-DNl"/>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="31"/>
+        </scene>
+        <!--Number Cruncher-->
+        <scene sceneID="XKj-S2-3xL">
+            <objects>
+                <controller identifier="NumberCruncher" title="Number Cruncher" id="pfg-Zu-aNK">
+                    <items>
+                        <button width="1" height="0.40000000000000002" alignment="center" title="+" id="0cX-yj-E3V"/>
+                        <label width="1" height="0.20000000000000001" alignment="center" text="10" textAlignment="center" id="TSi-Qs-ViV"/>
+                        <button width="1" height="0.40000000000000002" alignment="center" title="-" id="9nF-Vp-Ait"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="330"/>
+        </scene>
+    </scenes>
+</document>
